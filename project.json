@@ -1,0 +1,85 @@
+{
+    "project_type": "javascript",
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions", "external"],
+
+    "jsList" : [
+        "src/common/utils.js",
+        "src/common/thunder.js",
+        "src/common/eventDefine.js",
+        "src/common/ui/soundMenuItem.js",
+        "src/common/ui/topLayer.js",
+        "src/common/ui/modalLayer.js",
+        "src/common/equipment.js",
+        "src/common/flyerManager.js",
+
+        "src/resource/effect.js",
+        "src/resource/login.js",
+        "src/resource/sound.js",
+        "src/resource/map.js",
+        "src/resource/plane.js",
+        "src/resource/bullet.js",
+
+        "src/layout/gameLayerManager.js",
+        "src/layout/gameLayer.js",
+
+        "src/map/basic/mapDefine.js",
+        "src/map/basic/mapLayer.js",
+        "src/map/basic/bottomMapLayer.js",
+        "src/map/basic/topMapLayer.js",
+        "src/map/basic/lRMapLayer.js",
+        "src/map/basic/multiMapLayer.js",
+        "src/map/basic/randomMapLayer.js",
+        "src/map/mapManager.js",
+
+        "src/bullet/bulletDefine.js",
+        "src/bullet/bulletLayer.js",
+        "src/bullet/bulletManager.js",
+        "src/bullet/bulletBasic.js",
+        "src/bullet/bulletFollow.js",
+        "src/bullet/bulletLine.js",
+        "src/bullet/strikerBullet.js",
+        "src/bullet/render/bulletRender.js",
+        "src/bullet/render/strikerBulletRender.js",
+        "src/bullet/render/strikerBulletRenderS2.js",
+        "src/bullet/render/strikerBulletRenderS3.js",
+        "src/bullet/render/strikerBulletRenderS4.js",
+        "src/bullet/render/strikerBulletRenderS5.js",
+        "src/bullet/cruiseBullet.js",
+        "src/bullet/render/cruiseBulletRender.js",
+
+        "src/weapon/weaponDefine.js",
+        "src/weapon/weaponBasic.js",
+        "src/weapon/weaponManager.js",
+        "src/weapon/weaponRender.js",
+        "src/weapon/primary/strikerWeapon.js",
+        "src/weapon/primary/strikerWeaponRender.js",
+        "src/weapon/secondary/cruiseWeapon.js",
+        "src/weapon/secondary/cruiseWeaponRender.js",
+
+        "src/plane/planeDefine.js",
+        "src/plane/planeManager.js",
+        "src/plane/planeBasic.js",
+        "src/plane/strikerPlane.js",
+        "src/plane/render/planeRender.js",
+        "src/plane/render/planeBurstEjector.js",
+        "src/plane/render/strikerPlaneRender.js",
+
+        "src/armor/armorDefine.js",
+        "src/armor/armorManager.js",
+
+        "src/weapon/weaponManager.js",
+
+        "src/wingman/wingmanManager.js",
+
+        "src/effect/touchEffectLayer.js",
+
+        "src/login/loginScene.js"
+    ]
+}
